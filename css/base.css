@@ -83,6 +83,7 @@ body {
     margin: 0;
 
     font-family: var(--font-family);
+    font-size: var(--font-size-body);
     font-weight: var(--font-weight-normal);
 
     color: var(--color-text);
