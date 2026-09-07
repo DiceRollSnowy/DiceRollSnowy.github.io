@@ -1,0 +1,121 @@
+/* ==================================================
+   Variables
+================================================== */
+
+:root {
+
+    /*
+    --color-background: #eaf8fc;
+    --color-background-sub: #f5fcfe;
+    */
+
+    /* Colors */
+    --color-background: #eaf7fc;
+    --color-background-sub: #f5f7fe;
+    --color-white: #ffffff;
+
+    --color-background-image: #dff5fb;
+
+    --color-card: rgba(255, 255, 255, 0.82);
+    --color-card-solid: #ffffff;
+
+    --color-text: #355277;
+    --color-text-sub: #627a96;
+
+    --color-heading: #355277;
+
+    --color-primary: #65a9d7;
+    --color-primary-dark: #3776aa;
+
+    --color-border: rgba(78, 152, 202, 0.4);
+
+    /* Radius */
+    --radius-small: 12px;
+    --radius-medium: 18px;
+    --radius-large: 26px;
+
+    /* Shadow */
+    --shadow-card:
+        0 8px 30px rgba(72, 147, 172, 0.10);
+
+    --shadow-card-hover:
+        0 14px 35px rgba(72, 147, 172, 0.16);
+
+    /* Layout */
+    --content-width: 1000px;
+    --side-padding: 24px;
+
+    /* Font */
+    --font-family: "M PLUS Rounded 1c", sans-serif;
+
+    --font-weight-normal: 500;
+    --font-weight-bold: 600;
+    --font-weight-heavy: 700;
+
+    /* Font Size */
+
+    --font-size-subtitle: 18px;
+    --font-size-body: 16px;
+
+    /*--font-size-large: 18px;*/
+    --font-size-small: 14px;
+    --font-size-tiny: 12px;
+
+    --font-size-h1: 36px;
+    --font-size-h2: 26px;
+    --font-size-h3: 22px;
+}
+
+
+/* ==================================================
+   Reset
+================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+
+    color: var(--color-text);
+
+    background:
+        linear-gradient(
+            180deg,
+            var(--color-background) 0%,
+            var(--color-background-sub) 45%,
+            var(--color-white) 100%
+        );
+
+    line-height: 1.7;
+}
+
+
+/* ==================================================
+   Base Elements
+================================================== */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}

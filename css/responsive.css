@@ -1,0 +1,157 @@
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 700px) {
+
+    :root {
+        --side-padding: 16px;
+    }
+
+    /* Header */
+
+    .header-inner {
+        min-height: 58px;
+    }
+
+    .site-nav {
+        gap: 14px;
+    }
+
+    .site-nav a {
+        font-size: 10px;
+    }
+
+    /* Hero */
+
+    .hero {
+        margin-top: 24px;
+    }
+
+    .hero-card {
+        padding: 26px;
+    }
+
+    .hero-profile-image {
+        width: 84px;
+        height: 84px;
+
+        border-radius: 22px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    /* Sections */
+
+    .section {
+        margin-top: 48px;
+    }
+
+    /* Profile */
+
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bento-card {
+        padding: 24px;
+    }
+
+    /* Features */
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ==================================================
+   Small Mobile
+================================================== */
+
+@media (max-width: 480px) {
+
+    /* Header */
+
+    .header-inner {
+        gap: 12px;
+    }
+
+    .site-logo-name {
+        font-size: 16px;
+    }
+
+    .site-nav {
+        gap: 10px;
+    }
+
+    .site-nav a {
+        font-size: 9px;
+        letter-spacing: 0.04em;
+    }
+
+    /* Hero */
+
+    .hero-card {
+        padding: 22px;
+    }
+
+    .hero-main {
+        gap: 16px;
+    }
+
+    .hero-profile-image {
+        width: 70px;
+        height: 70px;
+
+        border-radius: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 12px;
+    }
+
+    .hero-description {
+        font-size: 13px;
+    }
+
+    /* Profile */
+
+    .bento-card {
+        padding: 20px;
+    }
+
+    .profile-list-row {
+        grid-template-columns: 85px minmax(0, 1fr);
+
+        gap: 10px;
+    }
+
+    /* Links */
+
+    /*
+    .link-list {
+        gap: 8px;
+    }
+
+    .link-button {
+        padding: 9px 11px;
+
+        font-size: 11px;
+    }
+    */
+
+}

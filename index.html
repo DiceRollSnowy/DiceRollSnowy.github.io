@@ -1,12 +1,269 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DiceRoll</title>
+
+    <title>DiceRoll ProfileSite</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+    >
 </head>
+
 <body>
-    <h1>DiceRoll</h1>
-    <p>GitHub Pages テスト</p>
+    <!-- =========================
+         Header
+    ========================== -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <a href="#" class="site-logo">
+                <span class="site-logo-mark">
+                    <img src="images/icon.png" alt="DiceRoll">
+                </span>
+                <span class="site-logo-name">DiceRoll</span>
+            </a>
+
+            <nav class="site-nav">
+                <a href="index.html" class="active">HOME</a>
+                <a href="commingsoon.html">PROFILE</a>
+                <a href="commingsoon.html">EVENT</a>
+                <a href="commingsoon.html">PHOTO</a>
+                <a href="commingsoon.html">BOOTH</a>
+                <a href="commingsoon.html">LINK</a>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <!-- =========================
+             Hero
+        ========================== -->
+        <section class="hero">
+            <div class="hero-card">
+                <div class="hero-main">
+                    <div class="hero-profile-image">
+                        <img src="images/icon.png" alt="DiceRoll">
+                    </div>
+                    <div class="hero-profile-info">
+                        <p class="hero-label">VRCHATTER</p>
+                        <h1>だいすろーる</h1>
+                        <p class="hero-subtitle">
+                            DiceRoll
+                        </p>
+                    </div>
+                </div>
+
+                <p class="hero-description">
+                    だいすろーるです。2020年4月からVRChatで遊んでます！ <br>
+                    <br>
+                    VRChatでイベントキャスト・スタッフを中心に活動しています。<br>
+                    自撮りをしてTwitterに #ふぉとろーる タグで写真を投稿しています。<br>
+                    また、DiceRollWorks. というBoothで、VRChat向けのツールなどを製作、公開しています。<br>
+                </p>
+
+                <div class="hero-links">
+                    <a href="https://x.com/diceroll_snw" 
+                       target="_blank" 
+                       class="social-button">
+                        <span>Twitter / X</span>
+                    </a>
+                    <a href="https://vrchat.com/home/user/usr_982fbb7c-544a-4d86-8599-c7b37974bc1a" 
+                       target="_blank"
+                       class="social-button">
+                        <span>VRChat</span>
+                    </a>
+                    <a href="https://diceshop.booth.pm/" 
+                       target="_blank" 
+                       class="social-button">
+                        <span>BOOTH</span>
+                    </a>
+
+                    <!-- LitLink (Tmp) -->
+                    <a href="https://lit.link/DiceRoll" 
+                       target="_blank"
+                       class="social-button">
+                        <span>LitLink</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             Content
+        ========================== -->
+        <section class="section">
+
+            <div class="section-heading">
+                <p class="section-label">CONTENT</p>
+                <h2>コンテンツ</h2>
+            </div>
+
+            <div class="feature-grid">
+                <!-- ファングループ -->
+                <a href="https://vrc.group/DICEFC.2817"
+                   target="_blank"
+                   class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/fangroup.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">FAN GROUP</p>
+                        <h3>ファングループ</h3>
+                        <p>
+                            VRChatのファングループです。<br>
+                            イベントの案内、お知らせをしています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+
+                <!-- 今週のだいすちゃん -->
+                <a href="https://x.com/search?q=%23%E4%BB%8A%E9%80%B1%E3%81%AE%E3%81%A0%E3%81%84%E3%81%99%E3%81%A1%E3%82%83%E3%82%93&src=hashtag_click&f=live"
+                   target="_blank" 
+                   class="feature-card">
+                    <div class="feature-card">
+                        <div class="feature-image">
+                            <img src="https://raw.githubusercontent.com/DiceRollSnowy/DiceRollWeeklySchedule/main/DiceRollSchedule/DiceRollSchedule.png" alt="">
+                        </div>
+                        <div class="feature-content">
+                            <p class="card-label">WEEKLY SCHEDULE</p>
+                            <h3>#今週のだいすちゃん</h3>
+                            <p>
+                                週間予定表をお知らせしています。<br>
+                                Twitterで #今週のだいすちゃん タグで毎週投稿しています。
+                            </p>
+                            <span class="feature-arrow">
+                                →
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- =========================
+             Menu
+        ========================== -->
+        <section class="section">
+
+            <div class="section-heading">
+                <p class="section-label">MENU</p>
+                <h2>メニュー</h2>
+            </div>
+
+            <div class="feature-grid">
+                <!-- Profile -->
+                <a href="commingsoon.html" class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/profile.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">PROFILE</p>
+                        <h3>プロフィール</h3>
+                        <p>
+                            だいすろーるのプロフィールを紹介しています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Event -->
+                <a href="commingsoon.html" class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/event.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">EVENT</p>
+                        <h3>イベント</h3>
+                        <p>
+                            VRChatで所属しているイベントをまとめています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Photos -->
+                <a href="commingsoon.html" class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/photo.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">PHOTO</p>
+                        <h3>写真撮影</h3>
+                        <p>
+                            VRChatで撮影した写真やテスター実績などをまとめています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Booth -->
+                <a href="commingsoon.html" class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/booth.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">BOOTH</p>
+                        <h3>Booth Shop</h3>
+                        <p>
+                            DiceRollWorks. で公開している商品を紹介しています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Link -->
+                <a href="commingsoon.html" class="feature-card">
+                    <div class="feature-image">
+                        <img src="images/link.png" alt="">
+                    </div>
+                    <div class="feature-content">
+                        <p class="card-label">LINK</p>
+                        <h3>リンク</h3>
+                        <p>
+                            各種リンクをまとめています。
+                        </p>
+                        <span class="feature-arrow">
+                            →
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================
+         Footer
+    ========================== -->
+    <footer class="site-footer">
+        <p>
+            © DiceRoll 2026
+        </p>
+    </footer>
+
 </body>
 </html>
