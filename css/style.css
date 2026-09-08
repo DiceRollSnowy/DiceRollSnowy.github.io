@@ -276,7 +276,7 @@ main {
     border: 1px solid var(--color-border);
     border-radius: 12px;
 
-    background: rgba(255, 255, 255, 0.75);
+    background: var(--color-background);
 
     color: var(--color-text);
 
@@ -291,9 +291,6 @@ main {
 
 .social-button:hover {
     transform: translateY(-2px);
-
-    background: white;
-
     border-color: rgba(78, 168, 202, 0.35);
 }
 
@@ -744,6 +741,9 @@ main {
     background: var(--color-background);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-medium);
+
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
 
     transition:
         transform 0.2s ease,
