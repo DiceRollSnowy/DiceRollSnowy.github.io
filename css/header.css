@@ -3,14 +3,14 @@
 ================================================== */
 
 #header {
-    min-height: 64px;
-}
-
-.site-header {
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 900;
 
+    width: 100%;
+}
+
+.site-header {
     width: 100%;
 
     background: rgba(255, 255, 255, 0.80);
@@ -163,7 +163,7 @@
     .mobile-menu {
         position: fixed;
         inset: 0;
-
+        
         z-index: 1000;
 
         display: flex;
