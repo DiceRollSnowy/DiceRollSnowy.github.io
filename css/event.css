@@ -100,8 +100,8 @@
 
 .event-nav-arrow {
     position: absolute;
-    right: 18px;
-    bottom: 18px;
+    right: 14px;
+    bottom: 14px;
 
     font-size: 18px;
 
@@ -129,6 +129,14 @@
     
     .event-nav-link {
         padding: 12px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .event-nav-arrow {
+        font-size: 16px;
     }
 
 }
