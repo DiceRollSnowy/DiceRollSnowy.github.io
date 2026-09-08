@@ -229,7 +229,7 @@ main {
 
     color: var(--color-primary-dark);
 
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-body);
     font-weight: var(--font-weight-bold);
 
     letter-spacing: 0.14em;
@@ -365,8 +365,6 @@ main {
     padding-right: 30px;
 
     color: var(--color-text-sub);
-
-    font-size: var(--font-size-small);
 }
 
 .feature-arrow {
