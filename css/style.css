@@ -616,7 +616,7 @@ main {
     position: absolute;
 
     right: 22px;
-    bottom: 22px;
+    bottom: 12px;
 
     color: var(--color-primary-dark);
 
@@ -726,3 +726,33 @@ main {
 
     font-size: var(--font-size-small);
 }
+
+/* LitLinkリンク */
+
+.litlink-button {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 24px;
+    padding: 14px 50px 14px 16px;
+
+    color: var(--color-text);
+    text-decoration: none;
+
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.litlink-button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(78, 168, 202, 0.35);
+}
+
