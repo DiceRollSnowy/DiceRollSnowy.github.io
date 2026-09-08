@@ -72,12 +72,6 @@
 
 /* Card text */
 
-.card-text {
-    color: var(--color-text);
-
-    font-size: var(--font-size-body);
-}
-
 .card-text p {
     margin: 0 0 12px;
 }
@@ -114,16 +108,10 @@
 
 .profile-list dt {
     color: var(--color-text-sub);
-
-    font-size: var(--font-size-body);
 }
 
 .profile-list dd {
     margin: 0;
-
-    color: var(--color-text);
-
-    font-size: var(--font-size-body);
     font-weight: var(--font-weight-bold);
 }
 
