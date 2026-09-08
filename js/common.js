@@ -61,7 +61,8 @@ function setupMenu()
     const menuCloseButton = document.getElementById("menuCloseButton");
     const mobileMenu = document.getElementById("mobileMenu");
 
-    if (!menuButton || !menuCloseButton || !mobileMenu) {
+    if (!menuButton || !menuCloseButton || !mobileMenu) 
+    {
         return;
     }
 

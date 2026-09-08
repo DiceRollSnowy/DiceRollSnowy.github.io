@@ -6,6 +6,37 @@
     min-height: 64px;
 }
 
+.site-header {
+    position: fixed;
+    top: 0;
+    z-index: 900;
+
+    width: 100%;
+
+    background: rgba(255, 255, 255, 0.80);
+
+    border-bottom: 1px solid var(--color-border);
+
+    backdrop-filter: blur(14px);
+}
+
+.header-inner {
+    width: min(
+        var(--content-width),
+        calc(100% - var(--side-padding) * 2)
+    );
+
+    min-height: 64px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
 .menu-button {
     display: none;
 
@@ -28,37 +59,6 @@
 
 .mobile-menu {
     display: none;
-}
-
-.site-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-
-    width: 100%;
-
-    background: rgba(255, 255, 255, 0.78);
-
-    border-bottom: 1px solid var(--color-border);
-
-    backdrop-filter: blur(14px);
-}
-
-.header-inner {
-    width: min(
-        var(--content-width),
-        calc(100% - var(--side-padding) * 2)
-    );
-
-    min-height: 64px;
-
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    gap: 30px;
 }
 
 /* Logo */
@@ -147,7 +147,7 @@
    Responsive
 ================================================== */
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
 
     /* PC用ナビを非表示 */
     .site-nav {
