@@ -105,13 +105,13 @@
     h1 {
         font-size: 28px;
     }
-
-    .hero-subtitle {
-        font-size: 12px;
+    
+    body {
+        font-size: 14px;
     }
 
-    .hero-description {
-        font-size: 13px;
+    .hero-subtitle {
+        font-size: 18px;
     }
 
     /* ==================================================

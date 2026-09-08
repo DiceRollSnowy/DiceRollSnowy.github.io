@@ -125,20 +125,18 @@ main {
 
 .hero-subtitle {
     margin: 0;
-    color: var(--color-text-sub);
+
+    color: var(--color-text);
+    
     font-size: var(--font-size-subtitle);
+    font-weight: var(--font-weight-bold);
 }
 
 /* Description */
 
 .hero-description {
     max-width: 700px;
-
     margin: 26px 0 0;
-
-    color: var(--color-text);
-
-    font-size: var(--font-size-body);
 }
 
 /* Hero links */
@@ -164,7 +162,6 @@ main {
     border-radius: 12px;
 
     background: var(--color-background);
-
     color: var(--color-text);
 
     font-size: var(--font-size-small);
@@ -293,6 +290,17 @@ main {
     gap: 20px;
 }
 
+.feature-label {
+    margin: 0 0 7px;
+
+    color: var(--color-primary-dark);
+
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+
+    letter-spacing: 0.13em;
+}
+
 .feature-card {
     overflow: hidden;
 
@@ -354,24 +362,16 @@ main {
     margin-bottom: 8px;
 }
 
-.feature-content .card-label {
-    display: inline-block;
-    margin-bottom: 8px;
-}
-
-.feature-content > p:not(.card-label) {
+.feature-content p {
     margin: 0;
-
     padding-right: 30px;
-
-    color: var(--color-text-sub);
 }
 
 .feature-arrow {
     position: absolute;
 
     right: 22px;
-    bottom: 12px;
+    bottom: 10px;
 
     color: var(--color-primary-dark);
 
