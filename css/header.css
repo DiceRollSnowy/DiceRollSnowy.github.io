@@ -6,6 +6,30 @@
     min-height: 64px;
 }
 
+.menu-button {
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    padding: 0;
+
+    border: none;
+    background: transparent;
+
+    color: var(--color-text);
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    display: none;
+}
+
 .site-header {
     position: sticky;
     top: 0;
@@ -117,4 +141,106 @@
     border-radius: 999px;
 
     background: var(--color-primary);
+}
+
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 700px) {
+
+    /* PC用ナビを非表示 */
+    .site-nav {
+        display: none;
+    }
+
+    /* ハンバーガーボタン */
+    .menu-button {
+        display: flex;
+    }
+
+    /* 全画面メニュー */
+    .mobile-menu {
+        position: fixed;
+        inset: 0;
+
+        z-index: 1000;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: var(--color-background);
+
+        opacity: 0;
+        visibility: hidden;
+
+        transition:
+            opacity 0.2s ease,
+            visibility 0.2s ease;
+    }
+
+    /* 開いた状態 */
+    .mobile-menu.is-open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* メニュー項目 */
+    .mobile-menu-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 28px;
+    }
+
+    .mobile-menu-links a {
+        color: var(--color-text);
+        text-decoration: none;
+
+        font-size: 24px;
+        font-weight: var(--font-weight-bold);
+
+        transition:
+            color 0.2s ease,
+            transform 0.2s ease;
+    }
+
+    .mobile-menu-links a:hover {
+        color: var(--color-primary);
+        transform: translateX(4px);
+    }
+
+    .mobile-menu-links a.active {
+        color: var(--color-primary);
+    }
+
+    /* ×ボタン */
+    .menu-close-button {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        width: 48px;
+        height: 48px;
+
+        padding: 0;
+
+        border: none;
+        background: transparent;
+
+        color: var(--color-text);
+
+        font-size: 32px;
+        font-weight: 300;
+
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 701px) {
+    .mobile-menu {
+        display: none;
+    }
 }
