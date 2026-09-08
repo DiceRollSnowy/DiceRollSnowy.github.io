@@ -51,7 +51,8 @@
      Profile
     ================================================== */
 
-    .profile-grid {
+    .profile-grid,
+    .profile-grid-3 {
         grid-template-columns: 1fr;
     }
 
