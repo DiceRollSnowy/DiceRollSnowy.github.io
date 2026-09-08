@@ -481,6 +481,11 @@ main {
     margin-bottom: 8px;
 }
 
+.feature-content .card-label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
 .feature-content > p:not(.card-label) {
     margin: 0;
 
