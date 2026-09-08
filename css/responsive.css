@@ -7,6 +7,18 @@
     :root {
         --side-padding: 16px;
     }
+    
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
 
     /* ==================================================
      Hero
@@ -27,37 +39,12 @@
         border-radius: 22px;
     }
 
-    h1 {
-        font-size: 34px;
-    }
-
-    h2 {
-        font-size: 23px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
     /* ==================================================
      Sections
     ================================================== */
 
     .section {
         margin-top: 48px;
-    }
-
-    /* ==================================================
-     Profile
-    ================================================== */
-
-    .profile-grid,
-    .profile-grid-3 {
-        grid-template-columns: 1fr;
-    }
-
-    .bento-card {
-        padding: 24px;
     }
 
     /* ==================================================
@@ -75,12 +62,24 @@
 
 @media (max-width: 480px) {
 
-    /* ==================================================
-     Header
-    ================================================== */
-
     .site-logo-name {
         font-size: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .section-label {
+        font-size: 14px;
     }
 
     /* ==================================================
@@ -102,34 +101,8 @@
         border-radius: 18px;
     }
 
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
-    body {
-        font-size: 14px;
-    }
-
     .hero-subtitle {
         font-size: 18px;
-    }
-
-    /* ==================================================
-     Profile
-    ================================================== */
-
-    .bento-card {
-        padding: 20px;
-    }
-
-    .profile-list-row {
-        grid-template-columns: 85px minmax(0, 1fr);
-
-        gap: 10px;
     }
 
 }

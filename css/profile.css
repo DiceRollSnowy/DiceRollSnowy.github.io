@@ -202,3 +202,34 @@
     width: 100%;
     height: auto;
 }
+
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 640px) {
+
+    .profile-grid,
+    .profile-grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .bento-card {
+        padding: 24px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .bento-card {
+        padding: 20px;
+    }
+
+    .profile-list-row {
+        grid-template-columns: 85px minmax(0, 1fr);
+
+        gap: 10px;
+    }
+
+}
