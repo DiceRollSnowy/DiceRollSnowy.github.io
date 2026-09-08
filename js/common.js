@@ -13,6 +13,8 @@ async function loadHeader()
         return;
     }
     header.innerHTML = await response.text();
+
+    setActiveNav();
 }
 
 async function loadFooter()
@@ -30,6 +32,22 @@ async function loadFooter()
         return;
     }
     footer.innerHTML = await response.text();
+}
+
+function setActiveNav() 
+{
+    const currentPage = document.body.dataset.page;
+
+    // data-page がないページは active を付けない
+    if (!currentPage) {
+        return;
+    }
+
+    document.querySelectorAll(".site-nav a").forEach(link => {
+        if (link.dataset.page === currentPage) {
+            link.classList.add("active");
+        }
+    });
 }
 
 loadHeader();
