@@ -79,6 +79,7 @@
 
     .navigate {
         grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
     }
     
     .navigate-link {
@@ -91,6 +92,7 @@
 
     .navigate {
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
     .navigate-arrow {
