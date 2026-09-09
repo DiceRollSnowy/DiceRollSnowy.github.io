@@ -2,15 +2,6 @@
    
 ================================================== */
 
-.section-part {
-    /* 64px（ヘッダー）＋20px（余白）*/
-    scroll-margin-top: 84px; 
-}
-
-/* ==================================================
-   
-================================================== */
-
 .event-grid {
     display: grid;
 
@@ -51,71 +42,6 @@
 }
 
 /* ==================================================
-   Navigation
-================================================== */
-
-.event-nav {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 16px;
-    margin-bottom: 48px;
-}
-
-.event-nav-link {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    padding: 16px;
-
-    color: var(--color-text);
-    text-decoration: none;
-
-    background: var(--color-card);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-medium);
-    box-shadow: var(--shadow-card);
-
-    transition:
-        transform 0.2s ease,
-        border-color 0.2s ease;
-}
-
-.event-nav-link:hover {
-    transform: translateY(-3px);
-    border-color: var(--color-primary);
-}
-
-.event-nav-label {
-    color: var(--color-primary-dark);
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-bold);
-
-    letter-spacing: 0.08em;
-}
-
-.event-nav-title {
-    margin-top: 4px;
-    font-weight: var(--font-weight-bold);
-}
-
-.event-nav-arrow {
-    position: absolute;
-    right: 14px;
-    bottom: 14px;
-
-    font-size: 18px;
-
-    transition: transform 0.2s ease;
-}
-
-.event-nav-link:hover .event-nav-arrow {
-    transform: translateY(4px); 
-}
-
-
-/* ==================================================
    Responsive
 ================================================== */
 
@@ -125,20 +51,8 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .event-nav {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-    .event-nav-link {
-        padding: 12px;
-    }
-
 }
 
 @media (max-width: 480px) {
-
-    .event-nav-arrow {
-        font-size: 16px;
-    }
 
 }
