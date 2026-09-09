@@ -66,6 +66,10 @@
     aspect-ratio: 16 / 9;
 }
 
+.photo-image-banner {
+    aspect-ratio: 3 / 1;
+}
+
 /* Photo content */
 
 .photo-content {
