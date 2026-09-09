@@ -51,13 +51,3 @@
     margin-top: 16px;
     margin-bottom: 16px;
 }
-
-/* Card text */
-
-.card-text p {
-    margin: 0 0 12px;
-}
-
-.card-text p:last-child {
-    margin-bottom: 0;
-}
