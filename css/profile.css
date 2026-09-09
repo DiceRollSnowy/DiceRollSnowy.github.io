@@ -104,6 +104,10 @@
     background: var(--color-background-image);
 }
 
+.profile-image.signature {
+    aspect-ratio: 1.667 / 1;
+}
+
 .profile-image img {
     width: 100%;
     height: 100%;
