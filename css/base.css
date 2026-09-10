@@ -123,3 +123,51 @@ textarea,
 select {
     font: inherit;
 }
+
+/* ==================================================
+   Main
+================================================== */
+
+main {
+    width: 100%;
+}
+
+/* ==================================================
+   Typography
+================================================== */
+
+/*
+    見出しの基本デザインはここで共通化
+*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color: var(--color-heading);
+    font-weight: var(--font-weight-bold);
+    line-height: 1.4;
+}
+
+/* h1 */
+h1 {
+    font-size: var(--font-size-h1);
+    letter-spacing: 0.03em;
+}
+
+/* h2 */
+h2 {
+    font-size: var(--font-size-h2);
+    letter-spacing: 0.02em;
+}
+
+/* h3 */
+h3 {
+    font-size: var(--font-size-h3);
+}
+
+/* h4 */
+h4 {
+    font-size: var(--font-size-h4);
+}
