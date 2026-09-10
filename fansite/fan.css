@@ -172,18 +172,6 @@
     }
 
     .fan-server-image img {
-        width: 100%;
-        height: 480px;
-        aspect-ratio: 4 / 3;
+        height: 100%;
     }
-}
-
-@media (max-width: 480px) {
-
-    .fan-server-image img {
-        width: 100%;
-        height: 280px;
-        aspect-ratio: 4 / 3;
-    }
-
 }
