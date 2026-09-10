@@ -1,0 +1,76 @@
+/* ==================================================
+   
+================================================== */
+
+.booth-button {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 24px;
+    padding: 14px 50px 14px 16px;
+
+    color: var(--color-text);
+    text-decoration: none;
+
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+
+    font-weight: var(--font-weight-bold);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.booth-button:hover {
+    transform: translateY(-2px);
+    border-color: rgba(78, 168, 202, 0.35);
+}
+
+/* ==================================================
+   
+================================================== */
+
+.booth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.booth-card {
+    overflow: hidden;
+
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-medium);
+
+    background: var(--color-white);
+
+    box-shadow: var(--shadow-card);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.booth-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-card-hover);
+}
+
+.booth-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--color-background-image);
+}
+
+
+
+
+
+
+
