@@ -26,7 +26,7 @@
         calc(100% - var(--side-padding) * 2)
     );
 
-    min-height: 64px;
+    height: 64px;
 
     margin: 0 auto;
 
@@ -64,38 +64,15 @@
 /* Logo */
 
 .site-logo {
-    display: inline-flex;
-    align-items: center;
-
-    gap: 10px;
-
-    font-weight: var(--font-weight-heavy);
-}
-
-.site-logo-mark {
-    width: 34px;
-    height: 34px;
-
     display: flex;
     align-items: center;
-    justify-content: center;
 
-    border-radius: 10px;
-
-    color: white;
-    background: var(--color-primary);
-
-    font-size: 17px;
+    height: 52px;
+    aspect-ratio: 3 / 1;
+    
+    overflow: hidden;
+    flex-shrink: 0;
 }
-
-.site-logo-name {
-    color: var(--color-heading);
-
-    font-size: var(--font-size-subtitle);
-
-    letter-spacing: 0.03em;
-}
-
 
 /* Navigation */
 
@@ -148,6 +125,11 @@
 ================================================== */
 
 @media (max-width: 640px) {
+
+    .site-logo {
+        height: 48px;
+        aspect-ratio: 3 / 1;
+    }
 
     /* PC用ナビを非表示 */
     .site-nav {
@@ -240,7 +222,9 @@
 }
 
 @media (min-width: 701px) {
+
     .mobile-menu {
         display: none;
     }
+
 }
