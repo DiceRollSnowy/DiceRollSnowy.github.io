@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/image-modal.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -113,13 +114,13 @@
             </div>
 
             <div class="feature-grid">
+
                 <!-- 今週のだいすちゃん -->
-                <a href="https://x.com/search?q=%23%E4%BB%8A%E9%80%B1%E3%81%AE%E3%81%A0%E3%81%84%E3%81%99%E3%81%A1%E3%82%83%E3%82%93&src=hashtag_click&f=live"
-                   target="_blank" 
-                   class="feature-card">
+                <div class="feature-card js-image-modal">
 
                     <div class="feature-image">
-                        <img src="https://raw.githubusercontent.com/DiceRollSnowy/DiceRollWeeklySchedule/main/DiceRollSchedule/DiceRollSchedule.png" alt="">
+                        <img src="https://raw.githubusercontent.com/DiceRollSnowy/DiceRollWeeklySchedule/main/DiceRollSchedule/DiceRollSchedule.png" 
+                            alt="">
                     </div>
                     <div class="feature-content">
                         <span class="feature-label">WEEKLY SCHEDULE</span>
@@ -133,7 +134,7 @@
                             →
                         </span>
                     </div>
-                </a>
+                </div>
             
                 <!-- ふぉとろーる -->
                 <a href="https://x.com/search?q=%23%E3%81%B5%E3%81%89%E3%81%A8%E3%82%8D%E3%83%BC%E3%82%8B&f=live"
@@ -328,6 +329,11 @@
     </main>
 
     <!-- =========================
+         Modal
+    ========================== -->
+    <div id="image-modal"></div>
+
+    <!-- =========================
          Footer
     ========================== -->
     <div id="footer"></div>
@@ -336,6 +342,7 @@
          javaScript
     ========================== -->
     <script src="js/common.js"></script>
+    <script src="js/image-modal.js"></script>
 
 </body>
 </html>
