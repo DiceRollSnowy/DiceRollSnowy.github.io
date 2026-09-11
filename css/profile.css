@@ -163,17 +163,9 @@
         grid-template-columns: 1fr;
     }
 
-    .bento-card {
-        padding: 24px;
-    }
-
 }
 
 @media (max-width: 480px) {
-
-    .bento-card {
-        padding: 20px;
-    }
 
     .profile-list-row {
         grid-template-columns: 85px minmax(0, 1fr);
