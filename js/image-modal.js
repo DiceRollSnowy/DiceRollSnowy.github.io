@@ -28,10 +28,17 @@ function setupImageModal()
         return;
     }
 
-    const images = document.querySelectorAll(".js-image-modal");
+    const imageCards = document.querySelectorAll(".js-image-modal");
 
-    images.forEach(image => {
-        image.addEventListener("click", () => {
+    imageCards.forEach(card => {
+        const image = card.querySelector("img");
+
+        if (!image) 
+        {
+            return;
+        }
+
+        card.addEventListener("click", () => {
             imageModalImage.src = image.src;
             imageModalImage.alt = image.alt;
 
