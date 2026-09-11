@@ -19,15 +19,15 @@
     --color-card: rgba(255, 255, 255, 0.82);
     --color-card-solid: #ffffff;
 
-    --color-text: #355277;
-    --color-text-sub: #627a96;
+    --color-text: #354c77;
+    --color-text-sub: #627796;
 
-    --color-heading: #355277;
+    --color-heading: rgb(44, 60, 112);
 
-    --color-primary: #65a9d7;
-    --color-primary-dark: #3776aa;
+    --color-primary: #658dd7;
+    --color-primary-dark: #376daa;
 
-    --color-border: rgba(78, 152, 202, 0.4);
+    --color-border: rgba(78, 128, 202, 0.4);
 
     /* Radius */
     --radius-small: 12px;
