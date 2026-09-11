@@ -92,11 +92,21 @@ body {
     color: var(--color-text);
 
     background:
+        radial-gradient(
+            circle at 20% 10%,
+            rgba(255, 255, 255, 0.8),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 35%,
+            rgba(190, 224, 255, 0.35),
+            transparent 40%
+        ),
         linear-gradient(
             180deg,
-            var(--color-background) 0%,
-            var(--color-background-sub) 45%,
-            var(--color-white) 100%
+            #dff7ff 0%,
+            #edfaff 45%,
+            #ffffff 100%
         );
 
     line-height: 1.7;
