@@ -30,14 +30,14 @@
 
 .profile-list-row {
     display: grid;
-    grid-template-columns: 100px minmax(0, 1fr);
+    grid-template-columns: 90px minmax(0, 1fr);
     gap: 16px;
     padding: 9px 0;
     border-bottom: 1px solid rgba(78, 168, 202, 0.10);
 }
 
-.row-vrc {
-    grid-template-columns: 120px minmax(0, 1fr);
+.profile-list-row.row-vrc {
+    grid-template-columns: 110px minmax(0, 1fr);
 }
 
 .profile-list-row:first-child {
@@ -168,9 +168,12 @@
 @media (max-width: 480px) {
 
     .profile-list-row {
-        grid-template-columns: 85px minmax(0, 1fr);
-
+        grid-template-columns: 75px minmax(0, 1fr);
         gap: 10px;
+    }
+
+    .profile-list-row.row-vrc {
+        grid-template-columns: 95px minmax(0, 1fr);
     }
 
 }
