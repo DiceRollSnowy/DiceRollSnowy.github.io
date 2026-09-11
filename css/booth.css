@@ -117,6 +117,10 @@
         gap: 10px;
     }
 
+    .booth-content {
+        padding: 12px 14px;
+    }
+
     h4 {
         font-size: 16px;
     }

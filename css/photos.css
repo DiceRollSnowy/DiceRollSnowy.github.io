@@ -123,4 +123,7 @@
         gap: 10px;
     }
 
+    .photo-content {
+        padding: 12px 14px;
+    }
 }
