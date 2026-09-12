@@ -102,6 +102,8 @@
     margin-top: 24px;
 }
 
+/* social button */
+
 .social-button {
     display: inline-flex;
     align-items: center;
@@ -141,47 +143,6 @@
 
     font-size: var(--font-size-tiny);
     font-weight: var(--font-weight-bold);
-}
-
-
-/* ==================================================
-   Section
-================================================== */
-
-.section {
-    width: min(
-        var(--content-width),
-        calc(100% - var(--side-padding) * 2)
-    );
-
-    margin: 64px auto 0;
-}
-
-/* 個別ページ */
-.section-part {
-    width: min(
-        var(--content-width),
-        calc(100% - var(--side-padding) * 2)
-    );
-
-    margin: 36px auto 0;
-}
-
-/* Section heading */
-
-.section-heading {
-    margin-bottom: 24px;
-}
-
-.section-label {
-    margin: 0 0 2px;
-
-    color: var(--color-primary-dark);
-
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-bold);
-
-    letter-spacing: 0.14em;
 }
 
 /* ==================================================
@@ -227,7 +188,6 @@
 
     background: var(--color-primary);
 }
-
 
 /* ==================================================
    Feature Cards
@@ -335,3 +295,8 @@
 .feature-card:hover .feature-arrow {
     transform: translateX(4px);
 }
+
+
+
+
+

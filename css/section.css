@@ -1,0 +1,61 @@
+/* ==================================================
+   Section
+================================================== */
+
+.section {
+    width: min(
+        var(--content-width),
+        calc(100% - var(--side-padding) * 2)
+    );
+
+    margin: 64px auto 0;
+}
+
+/* 個別ページ */
+.section-part {
+    width: min(
+        var(--content-width),
+        calc(100% - var(--side-padding) * 2)
+    );
+
+    margin: 36px auto 0;
+}
+
+/* Section heading */
+
+.section-heading {
+    margin-bottom: 24px;
+}
+
+.section-label {
+    margin: 0 0 2px;
+
+    color: var(--color-primary-dark);
+
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-bold);
+
+    letter-spacing: 0.14em;
+}
+
+/* ==================================================
+   Arrow
+================================================== */
+
+.feature-arrow {
+    position: absolute;
+
+    right: 22px;
+    bottom: 10px;
+
+    color: var(--color-primary-dark);
+
+    font-size: 20px;
+
+    transition:
+        transform 0.2s ease;
+}
+
+.feature-arrow {
+    transform: translateX(4px);
+}
