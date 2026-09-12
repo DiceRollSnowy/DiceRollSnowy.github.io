@@ -59,3 +59,23 @@
 .feature-arrow {
     transform: translateX(4px);
 }
+
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 640px) {
+
+    .section {
+        margin-top: 48px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section-label {
+        font-size: 14px;
+    }
+
+}
