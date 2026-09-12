@@ -181,3 +181,70 @@ h3 {
 h4 {
     font-size: var(--font-size-h4);
 }
+
+/* ==================================================
+   Arrow
+================================================== */
+
+.feature-arrow {
+    position: absolute;
+
+    right: 22px;
+    bottom: 10px;
+
+    color: var(--color-primary-dark);
+
+    font-size: 20px;
+
+    transition: transform 0.2s ease;
+
+    transform: translateX(4px);
+}
+
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 640px) {
+
+    :root {
+        --side-padding: 16px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .site-logo-name {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+}

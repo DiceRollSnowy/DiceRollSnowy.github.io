@@ -102,6 +102,8 @@
     margin-top: 24px;
 }
 
+/* social button */
+
 .social-button {
     display: inline-flex;
     align-items: center;
@@ -141,47 +143,6 @@
 
     font-size: var(--font-size-tiny);
     font-weight: var(--font-weight-bold);
-}
-
-
-/* ==================================================
-   Section
-================================================== */
-
-.section {
-    width: min(
-        var(--content-width),
-        calc(100% - var(--side-padding) * 2)
-    );
-
-    margin: 64px auto 0;
-}
-
-/* 個別ページ */
-.section-part {
-    width: min(
-        var(--content-width),
-        calc(100% - var(--side-padding) * 2)
-    );
-
-    margin: 36px auto 0;
-}
-
-/* Section heading */
-
-.section-heading {
-    margin-bottom: 24px;
-}
-
-.section-label {
-    margin: 0 0 2px;
-
-    color: var(--color-primary-dark);
-
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-bold);
-
-    letter-spacing: 0.14em;
 }
 
 /* ==================================================
@@ -228,7 +189,6 @@
     background: var(--color-primary);
 }
 
-
 /* ==================================================
    Feature Cards
 ================================================== */
@@ -270,7 +230,6 @@
 
 .feature-card:hover {
     transform: translateY(-4px);
-
     box-shadow: var(--shadow-card-hover);
 }
 
@@ -318,20 +277,58 @@
     padding-right: 30px;
 }
 
-.feature-arrow {
-    position: absolute;
+/* ==================================================
+   Responsive
+================================================== */
 
-    right: 22px;
-    bottom: 10px;
+@media (max-width: 640px) {
 
-    color: var(--color-primary-dark);
+    .hero {
+        margin-top: 24px;
+    }
 
-    font-size: 20px;
+    .hero-card {
+        padding: 26px;
+    }
 
-    transition:
-        transform 0.2s ease;
+    .hero-profile-image {
+        width: 84px;
+        height: 84px;
+
+        border-radius: 22px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
-.feature-card:hover .feature-arrow {
-    transform: translateX(4px);
+@media (max-width: 480px) {
+
+    .hero-card {
+        padding: 22px;
+    }
+
+    .hero-main {
+        gap: 16px;
+    }
+
+    .hero-profile-image {
+        width: 70px;
+        height: 70px;
+
+        border-radius: 18px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .feature-content {
+        padding: 12px 14px;
+    }
+
 }
+
+
+
