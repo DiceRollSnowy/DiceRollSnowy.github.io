@@ -39,28 +39,6 @@
 }
 
 /* ==================================================
-   Arrow
-================================================== */
-
-.feature-arrow {
-    position: absolute;
-
-    right: 22px;
-    bottom: 10px;
-
-    color: var(--color-primary-dark);
-
-    font-size: 20px;
-
-    transition:
-        transform 0.2s ease;
-}
-
-.feature-arrow {
-    transform: translateX(4px);
-}
-
-/* ==================================================
    Responsive
 ================================================== */
 
