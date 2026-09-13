@@ -85,10 +85,17 @@
 @media (max-width: 640px) {
 
     .navigate {
-        grid-template-columns: repeat(3, 1fr);
         gap: 14px;
     }
-    
+
+    .navigate.nv-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .navigate.nv-5 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .navigate-link {
         padding: 12px;
     }
@@ -98,8 +105,15 @@
 @media (max-width: 480px) {
 
     .navigate {
-        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+    }
+
+    .navigate.nv-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navigate.nv-5 {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .navigate-arrow {
