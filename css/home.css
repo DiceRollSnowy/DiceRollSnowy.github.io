@@ -202,17 +202,6 @@
     gap: 20px;
 }
 
-.feature-label {
-    margin: 0 0 7px;
-
-    color: var(--color-primary-dark);
-
-    font-size: var(--font-size-small);
-    font-weight: var(--font-weight-bold);
-
-    letter-spacing: 0.13em;
-}
-
 .feature-card {
     overflow: hidden;
 
@@ -275,6 +264,17 @@
 .feature-content p {
     margin: 0;
     padding-right: 30px;
+}
+
+/* label */
+
+.feature-label {
+    margin: 0 0 7px;
+
+    color: var(--color-primary-dark);
+    font-weight: var(--font-weight-bold);
+    
+    letter-spacing: 0.13em;
 }
 
 /* ==================================================
