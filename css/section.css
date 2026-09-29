@@ -1,0 +1,59 @@
+/* ==================================================
+   Section
+================================================== */
+
+.section {
+    width: min(
+        var(--content-width),
+        calc(100% - var(--side-padding) * 2)
+    );
+
+    margin: 64px auto 0;
+}
+
+/* 個別ページ */
+.section-part {
+    width: min(
+        var(--content-width),
+        calc(100% - var(--side-padding) * 2)
+    );
+
+    margin: 36px auto 0;
+}
+
+/* Section heading */
+
+.section-heading {
+    margin-bottom: 24px;
+}
+
+.section-label {
+    margin: 0 0 2px;
+
+    color: var(--color-primary-dark);
+
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-bold);
+
+    letter-spacing: 0.14em;
+}
+
+/* ==================================================
+   Responsive
+================================================== */
+
+@media (max-width: 640px) {
+
+    .section {
+        margin-top: 48px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section-label {
+        font-size: 14px;
+    }
+
+}
